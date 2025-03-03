@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial;
+}
+
+body, main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+main {
+    height: 90vh;
+    width: 80vw;
+    border-radius: 10px;
+}
+
+form {
+    background-color: #f0f0f0;
+    border-radius: 20px;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 90vh;
+    width: 80vw;
+}
+
+fieldset {
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    padding: 3% 8%;
+    height: 70%;
+}
+
+.text {
+    margin-top: 5px;
+    height: 4vh;
+    padding-left: 1vw;
+}
+
+.textarea {
+    height: 8vh;
+    padding: 1vh;
+    margin-top: 5px;
+}
+
+.textarea-maior {
+    height: 25vh;
+    padding: 2vh;
+}
+
+.botao {
+    margin-top: 10px;
+    padding: 5px;
+    width: 10vw;
+    min-width: 60px;
+}
